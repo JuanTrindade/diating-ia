@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const key = "key"; 
+const key = process.env.REACT_APP_OPENAIKEY;
 
 const header = {
     "Authorization": `Bearer ${key}`
